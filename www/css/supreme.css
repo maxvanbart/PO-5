@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: verdana, sans-sarif;
+}
+
+#kop {
+  height: 120px;
+}
+
+#header {
+  height: 85%;
+  background-color: #000000;
+  float: right;
+}
+
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+	}
+	
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	background-color: #333;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#main {
+	margin-left: 100px;
+	margin-right: 100px;
+	height: auto;
+	float: right;
+	background-color: #C0C0C0;
+	font-size: 18px;
+	margin-bottom: 20px;
+	opacity: 0.95;
+	border-radius: 15px;
+	padding: 20px;
+	width: 50%;
+}
+
+#main_sub {
+	height: auto;
+}
+
+#main_l {
+	margin-left: 0px;
+	margin-right: 0px;
+	height: auto;
+	float: left;
+	background-color: #C0C0C0;
+	font-size: 18px;
+	margin-bottom: 0px;
+	opacity: 0.95;
+	border-radius: 15px;
+	padding: 20px;
+	width: 15%;
+	background-color: #C0C0C0;
+}
+
+#main_M {
+	margin-left: 5%;
+	margin-right: 10%;
+	height: auto;
+	float: Right;
+	background-color: #C0C0C0;
+	font-size: 18px;
+	margin-bottom: 20px;
+	opacity: 0.95;
+	border-radius: 15px;
+	padding: 20px;
+	width: 70%;
+	background-color: #C0C0C0;
+}
+
+#sidebar {
+	margin-left: 100px;
+	margin-right: 100px;
+	height: auto;
+	float: center;
+	background-color: #C0C0C0;
+	font-size: 18px;
+	margin-bottom: 20px;
+	opacity: 0.95;
+	border-radius: 15px;
+	padding: 20px;
+}
+
+#main1 {
+	margin-left: 100px;
+	margin-right: 0px;
+	height: auto;
+	float: left;
+	background-color: #C0C0C0;
+	font-size: 18px;
+	margin-bottom: 20px;
+	opacity: 0.95;
+	border-radius: 15px;
+	padding: 20px;
+	width: 60%;
+}
+
+#main2 {
+	margin-left: 0px;
+	margin-right: 100px;
+	height: auto;
+	float: right;
+	background-color: #C0C0C0;
+	font-size: 18px;
+	margin-bottom: 20px;
+	opacity: 0.95;
+	border-radius: 15px;
+	padding: 20px;
+	width: 20%
+}
+
+body {
+	background-image: url("walpapper.png");
+}
+
+.active {
+	background-color: #000000;
+}
+
+table {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+a.colored:link {color: #00FF00}
+a.colored:visited {color: #008000}
+a.colored:hover {color: #00BFFF}
+a.colored:active {color: black}
+
+img.main {
+	float: center;
+	margin-left: 35%;
+	margin-right: 35%;
+	float: center;
+}

@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  font: 0.9em Tahoma, Verdana, Arial;
+  line-height:172%;
+  background: #ddd;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container {
+  width: 1000px;
+  padding: 25px;
+  background: #fff;
+  margin: 100px auto 0 auto;
+  min-height: 500px;
+}
+
+.afbeelding_container {
+  position: relative;
+  float: left;
+  margin-left: 25px;
+}
+
+.afbeelding_container .tekst_container {
+  position: absolute;
+  top: 25px;
+  left: 50px;
+  color: #FFFFFF;
+  font-family: 'Princess Sofia', cursive;
+  font-size: 36px;
+
+}
+
+.schoon {
+  clear: both;
+}
+
+
+#overzicht {
+  margin-left: 25px;
+}
+
+.links {
+  float: left;
+  width: 320px;
+}
+
+#rechts {
+  float: right;
+}
+
+#onder {
+  clear: both;
+}
+
+.breder {
+  width: 250px;
+}
+
+ul {
+  padding-left: 35px;
+  padding-right: 35px;
+  list-style: none;
+}
+
+hr {
+  margin: 12px 0;
+  height: 1px;
+  border: 1px solid #fff;
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+.menu {
+    margin:auto;
+    padding:30px;
+}
+
+ul.menu {
+    list-style-type: none
+}
+
+.menu li {
+    float:left;
+    position:relative;
+    width: 185px;
+    text-align:center;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li a {
+    display: block;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    position: relative;
+    z-index: 100;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.menu li a span{
+  display: block;
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  color: rgba(120, 120, 120, 0.9);
+  font-family: 'Princess Sofia', cursive;
+  font-size: 28px;
+}
+
+.menu li:hover span{
+  color: #fff;
+}
+
+.menu li:nth-child(1):hover a{
+  background-color: rgba(175,54,55,0.8);
+  -moz-transform: rotate(3deg);
+  -webkit-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+
+.menu li:nth-child(2):hover a{
+  background-color: rgba(199, 204, 73, 0.8);
+  -moz-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.menu li:nth-child(3):hover a{
+  background-color: rgba(213, 135, 11, 0.8);
+  -moz-transform: rotate(3deg);
+  -webkit-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+.menu li:nth-child(4):hover a{
+  background-color: rgba(51, 143, 144, 0.8);
+  -moz-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.menu li:nth-child(5):hover a{
+  background-color: rgba(117,18,98,0.8);
+  -moz-transform: rotate(3deg);
+  -webkit-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+.menu li:nth-child(6):hover a{
+  background-color: rgba(33, 136, 215, 0.8);
+  -moz-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.menu li:nth-child(7):hover a{
+  background-color: rgba(109, 109, 109, 0.8);
+  -moz-transform: rotate(3deg);
+  -webkit-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+.menu li:nth-child(8):hover a{
+  background-color: rgba(152, 120, 92, 0.8);
+  -moz-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+th {
+  padding: 10px 30px 10px 30px;
+}
+
+td {
+  padding: 0 30px 0 30px;
+}
+
+td.muteren {
+  padding: 0 0 0 10px;
+}
+
+
+tbody:before {
+    line-height:1em;
+    display:block;
+}
+
+thead {
+    text-align: left;
+}
